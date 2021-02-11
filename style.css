@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(17, 17, 17);
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 120pt;
+    line-height: 0.9;
+    color: white;
+}
+
+div.placeholder-container{
+    width: 50%;
+    margin-top: 20%;
+    margin-left: 80px;
+}
