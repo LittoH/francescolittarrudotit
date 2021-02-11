@@ -4,13 +4,13 @@ body{
 
 h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 120pt;
+    font-size: 12vh;
     line-height: 0.9;
     color: white;
 }
 
 div.placeholder-container{
     width: 50%;
-    margin-top: 20%;
+    margin-top: 40vh;
     margin-left: 80px;
 }
