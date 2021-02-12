@@ -10,7 +10,94 @@ h1 {
 }
 
 div.placeholder-container{
+    position:relative;
+
     width: 50%;
     margin-top: 40vh;
     margin-left: 80px;
+
+    -webkit-animation: fadeInFromNone 0.5s ease-out;
+    -moz-animation: fadeInFromNone 0.5s ease-out;
+    -o-animation: fadeInFromNone 0.5s ease-out;
+    animation: fadeInFromNone 0.5s ease-out;
+}
+
+@-webkit-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        bottom:-50px;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        bottom:-50px;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        bottom:0;
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        bottom:-50px;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        bottom:-50px;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        bottom:0;
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        bottom:-50px;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        bottom:-50px;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        bottom: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInFromNone {
+    0% {
+        display: none;
+        bottom:-50px;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        bottom:-50px;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        bottom:0;
+        opacity: 1;
+    }
 }
