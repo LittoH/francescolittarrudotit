@@ -22,6 +22,45 @@ div.placeholder-container{
     animation: fadeInFromNone 0.5s ease-out;
 }
 
+form.form-test {
+
+    position: absolute;
+
+    background-color: rgb(20, 20, 20);
+    width: 300px;
+    
+    right: 100px; 
+    bottom: 50px;
+    padding: 50px; 
+    border-radius: 30px 30px 30px 30px;
+}
+
+form.form-test > div{
+    width: 100%;
+    display: inline-block;
+}
+
+div.form-row {    
+    display: flexbox;
+    justify-content: space-between;
+
+}
+
+div.form-row > p {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    justify-content: space-between;
+    
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid rgb(201, 201, 201);
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    width: 100%;
+}
+
 @-webkit-keyframes fadeInFromNone {
     0% {
         display: none;
