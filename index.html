@@ -3,7 +3,7 @@
     <head>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
         <link href="./style.css" rel="stylesheet">
 
         <title>Home</title>
@@ -17,20 +17,17 @@
         <form class="form-test" name="contact" method="POST" data-netlify="true">
             <div>
                 <div class="form-row" style="margin-bottom: 50px; font-size: 20pt;">
-                    <p>
-                        CONTATTAMI
-                    </p>
+                    <p>Contattami</p>
                 </div>
 
                 <div class="form-row">
-                    <p>NOME:</p>
-                    <input type="text" name="name" />
+                    <p>Nome:</p>
+                    <input class="contattami" type="text" name="name" />
                 </div>
 
                 <div class="form-row">
-                    <p>
-                        <label>EMAIL:<br><input type="email" name="email" /></label>
-                    </p>
+                    <p>Email:</p>
+                    <input class="contattami" type="email" name="email" />
                 </div>
 
 
@@ -44,14 +41,13 @@
                 </div-->
 
                 <div class="form-row">
-                    <p>
-                        <label>MESSAGGIO:<br><textarea name="message"></textarea></label>
-                    </p>
+                    <p>Messaggio:</p>
+                    <textarea class="contattami" name="message"></textarea>
                 </div>
 
-                <p>
-                <button type="submit">INVIA</button>
-                </p>
+                <div class="form-row" style="margin-top: 70px;">
+                    <button class="contattami" type="submit">INVIA</button>
+                </div>
             </div>
           </form>
     </body>
