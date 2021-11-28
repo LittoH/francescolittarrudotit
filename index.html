@@ -21,7 +21,7 @@
         </script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.clouds2.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.clouds.min.js"></script>
         
     </head>
 
@@ -74,16 +74,16 @@
     </body>
 
     <script>
-        VANTA.CLOUDS2({
+        VANTA.CLOUDS({
             el: "#hero-content",
-            mouseControls: true,
-            touchControls: true,
+            mouseControls: false,
+            touchControls: false,
             gyroControls: false,
             minHeight: 200.00,
             minWidth: 200.00,
-            scale: 1.00,
-            speed: 0.20,
-            texturePath: "./gallery/noise.png"
+            skyColor: 0xd193c,
+            sunColor: 0xebebeb,
+            sunGlareColor: 0xffffff
         })
     </script>
 
