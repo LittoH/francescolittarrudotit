@@ -29,7 +29,7 @@ h1 {
     font-family: 'Playfair Display', serif;
     font-size: 12vh;
     line-height: 0.9;
-    color: rgb(31, 31, 31);
+    color: rgb(65, 65, 65);
 }
 
 div.hero-content {
@@ -57,7 +57,9 @@ form.form-test {
     /*
     background-color: rgb(20, 20, 20);
     */
-    background-color: rgb(205, 205, 205);
+    background-color: rgba(44, 44, 44, 0.15);
+    backdrop-filter: blur(50px);
+    
     width: 300px;
     
     right: 100px; 
@@ -65,8 +67,10 @@ form.form-test {
     padding: 50px; 
     border-radius: 30px 30px 30px 30px;
 
+    /*
     -webkit-box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.05), -9px -11px 14px 0px rgba(255, 255, 255, 0.1); 
     box-shadow: 10px 10px 14px 0px rgba(0, 0, 0, 0.05), -9px -11px 14px 0px rgba(255,255,255,0.1);
+    */
 }
 
 form.form-test > div{
@@ -81,9 +85,10 @@ div.form-row {
 }
 
 div.form-row > p {
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: 'Lato', sans-serif;
     font-family: 'Playfair Display', serif;
+    font-family: 'Outfit', sans-serif;
     justify-content: space-between;
     
 }
@@ -113,12 +118,14 @@ button.contattami {
     width: 100%;
     padding: 20px;  
     border-radius: 10px 10px 10px 10px;
-    background-color: rgb(205, 205, 205);
+    background-color: rgb(185, 185, 185);
     border: none;
     color: black;
 
+    /*
     -webkit-box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.05), -9px -11px 14px 0px rgba(255, 255, 255, 0.1); 
     box-shadow: 10px 10px 14px 0px rgba(0, 0, 0, 0.05), -9px -11px 14px 0px rgba(255,255,255,0.1);
+    */
 }
 
 @-webkit-keyframes fadeInFromNone {
