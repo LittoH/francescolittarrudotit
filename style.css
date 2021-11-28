@@ -1,19 +1,47 @@
 body{
+    
     background-color: rgb(205, 205, 205);
+    margin: 0;
+    padding: 0;
+    /*
+    background-image: linear-gradient(
+        to bottom right,
+        #4affde 0%, #5b9dff 40%, #d06bff 60%, #ff34d2 100%
+    );
+    
+
+    background-image: linear-gradient(
+        to bottom right,
+        #060120 0%, #5b9dff 40%, #c289c2 60%, #500740 100%
+    );
+
+    background-size: 200% 200%;
+    animation: movingGradient 25s linear infinite alternate;
+    */
+}
+
+@keyframes movingGradient {
+    from { background-position: 0 0; }
+    to { background-position: 100% 100%; }
 }
 
 h1 {
     font-family: 'Playfair Display', serif;
     font-size: 12vh;
     line-height: 0.9;
-    color: black;
+    color: rgb(31, 31, 31);
+}
+
+div.hero-content {
+    height: 100%;
+    margin-top: 0;
 }
 
 div.placeholder-container{
     position:relative;
 
     width: 50%;
-    margin-top: 40vh;
+    padding-top: 40vh;
     margin-left: 80px;
 
     -webkit-animation: fadeInFromNone 0.5s ease-out;
